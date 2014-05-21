@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<!DOCTYPE package-info SYSTEM "http://www.hippoedit.com/xml/package-info">
+<package-info xmlns="http://www.hippoedit.com/xml/package-info" xmlns:smf="http://www.hippoedit.com/">
+	<id>E703B929-4C3B-4A20-AE08-797AFCD2CE82</id>
+	<name>URL Tools</name>
+	<version>1.0</version>
+	<description>Different functions around URL constructing and parsing</description>
+	<author>HippoEDIT.com</author>
+	<email>supportbox@hippoedit.com</email>
+	<homepage>http://wiki.hippoedit.com/plugins/url-tools</homepage>
+	<memo></memo>
+	<install>
+		<readme type="inline">This will install URL Tools plugin for HippoEDIT.</readme>
+		<require-file name="url-tools.hejs" destination="%{plugins}%/url-tools.hejs" />
+		<install-plugin path="%{plugins}%/url tools.hejs"/>
+	</install>
+	<uninstall>
+		<readme type="inline">This will uninstall URL Tools plugin for HippoEDIT.</readme>
+		<uninstall-plugin id="E703B929-4C3B-4A20-AE08-797AFCD2CE82"/>
+		<remove-file name="%{plugins}%/url-tools.hejs" />
+	</uninstall>
+</package-info>
