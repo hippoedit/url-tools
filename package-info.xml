@@ -12,7 +12,7 @@
 	<install>
 		<readme type="inline">This will install URL Tools plugin for HippoEDIT.</readme>
 		<require-file name="url-tools.hejs" destination="%{plugins}%/url-tools.hejs" />
-		<install-plugin path="%{plugins}%/url tools.hejs"/>
+		<install-plugin path="%{plugins}%/url-tools.hejs"/>
 	</install>
 	<uninstall>
 		<readme type="inline">This will uninstall URL Tools plugin for HippoEDIT.</readme>
